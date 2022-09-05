@@ -1,0 +1,10 @@
+echo "# myansible-sep22" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git config --global user.name "phanibhushan123"
+git config --global user.email "yannam.phanibhushan@gmail.com"
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/phanibhushan123/myansible-sep22.git
+git push -u origin main
